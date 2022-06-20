@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: #122a76;
+}  
+
+.container img {
+    height: 70px;
+    width: auto;
+    max-width: 6    0px;
+    border-radius: 50px;
+    border: 1.8px solid rgb(24, 38, 228);
+    margin: 5px 30px 1px 30px;
+
+}
+
+
+.carousel-inner img{
+    margin-top: 95px;
+}
+
+
+
+/* pie de pagina */
+
+
+.piePaginaTexto h5{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-top:10px;
+}
+
+.piePaginaRedes{
+    display: flex;
+    justify-content: center;
+}
+
+.piePaginaRedes img {
+    width: 100px;
+    padding: 3px;
+    filter: grayscale();
+}
+
+.piePaginaRedes img:hover {
+    filter: none;
+}
+
+.piePaginaCopy P {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
