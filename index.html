@@ -12,24 +12,27 @@
 
 </head>
 <body>
+
+    <!-- Barra de navegacion-------
+     -->
     
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #c2fff7 " >
-    <!-- <nav class="navbar navbar-expand-lg background-color: $indigo-900">     -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #dae5ed" >
+
         
         
         
         <div class="container-fluid">
 
             <nav class="navbar">
-                <div class="container">
+                <div class="container m-2">
                   <a class="navbar-brand" href="./index.html">
-                    <img src="./img/Logo_empresa.jpg" alt="Logo benefica" width="40" height="24">
+                    <img src="./img/Logo_empresa.jpg" alt="Logo benefica" width="auto" height="70">
                   </a>
                 </div>
             </nav>
 
 
-            <a class="navbar-brand" href="#">Benefica Prevent</a>
+            <a class="navbar-brand text-dark" href="./index.html">BENEFICA PREVENT</a>
           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,7 +47,7 @@
                     </li>
                   
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Sobre Nosotros</a>
+                      <a class="nav-link" href="./html/sobre_Benefica.html">Sobre Nosotros</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -52,35 +55,35 @@
                         Servicios
                       </a>
                     
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#4dfff8">
-                        <li><a class="dropdown-item" href="#">Programa de Prevencion SST</a></li>
-                        <li><a class="dropdown-item" href="#">Programa de Fitness Laboral</a></li>
-                        <li><a class="dropdown-item" href="#">Programa de Gimnasia laborale</a></li>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#f3f3f3">
+                        <li><a class="dropdown-item" href="./html/prevencion-sst.html">Programa de Prevencion SST</a></li>
+                        <li><a class="dropdown-item" href="./html/fitness-laboral.html">Programa de Fitness Laboral</a></li>
+                        <li><a class="dropdown-item" href="./html/gimnasia-laboral.html">Programa de Gimnasia laboral</a></li>
                       </ul>
                     </li>
                   
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Galeria</a>
+                      <a class="nav-link" href="./html/galeria.html">Galeria</a>
                     </li>
                   
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contactenos</a>
+                      <a class="nav-link" href="./html/contactenos.html">Contactenos</a>
                     </li>
                 
                 
                 </ul>
-
+<!-- 
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search"     aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                </form> -->
 
             </div>
             
         </div>
     </nav>
 
-
+    <!-- Carrusel imagenes de portada -->
     
     <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
 
@@ -93,15 +96,15 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="./img/wepik--2022519-22397.jpeg" class="d-block w-100" alt="...">
+                <img src="./img/portada-2.jpeg" class="d-block w-100" alt="mujer sentada en colchoneta de ejercicio">
             </div>
 
             <div class="carousel-item">
-                <img src="./img/wepik--2022519-22423.jpeg" class="d-block w-100" alt="...">
+                <img src="./img/portada-1.jpeg" class="d-block w-100" alt="personas entrenando en grupo">
             </div>
 
             <div class="carousel-item">
-                <img src="./img/wepik--2022520-02438.jpeg" class="d-block w-100" alt="...">
+                <img src="./img/portada-4.jpeg" class="d-block w-100" alt="dos personas con casco se estan saludando con los codos">
             </div>
 
         </div>
@@ -119,60 +122,71 @@
     </div>
 
 
-
+    <!-- portafolio de servicios -->
 
 
     <div class="container-fluid mt-5 mb-2">
 
         <div class="row mb-3 ">
 
-            <div class="col bg-warning">
-              One of three columns
+            <div class="col bg-light p-5 ms-2 me-2 ">
+              <h2>Programa de Prevencion SST</h2>
+              <p> Busca promover la mejora de la seguridad y salud de los trabajadores en el trabajo, mediante la aplicación de medidas y el desarrollo de las actividades necesarias para prevenir los riesgos derivados de las condiciones del trabajo, teniendo como herramienta fundamental la evaluación de riesgos desarrollada en cada empresa por técnicos especialistas en Prevención de Riesgos Laborales.
+              </p>
+              <p>Se entiende como riesgo laboral la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo, considerándose daños derivados del trabajo las enfermedades, patologías o lesiones sufridas consecuencia del trabajo
+              </p>
             </div>
 
             <div class="col-12 col-lg-6 ">
-              <img src="./img/wepik--2022519-223056.jpeg" class="d-block w-100" alt="...">
+              <img src="./img/sst-1.jpeg" class="d-block w-100" alt="mujer con casco de seguridad saludando">
             </div>
 
         </div>
 
         <div class="row mb-3 ">
             
-            <div class="col bg-warning ">
-                One of three columns
-            </div>
-            <div class="col-12 col-lg-6 ">
-                <img src="./img/wepik--2022519-223056.jpeg" class="d-block w-100" alt="...">
+            <div class="col bg-dark p-5 ms-2 me-2 text-light">
+              <h2>Programa de Fitness Laboral</h2>
+              <p>El sedentarismo es uno de los grandes problemas de la sociedad actual por las consecuencias para la salud que acarrea no realizar ningún tipo de ejercicio físico. Trasladado al mundo laboral, supone para la empresa un alto coste traducido en bajas médicas y un clima de insatisfacción generalizado. En este sentido, el fitness corporativo es una de las opciones que tienen las organizaciones para contar con empleados más sanos y motivados a través del entrenamiento diario, y por tanto más competitivos y productivos.
+              </p> 
             </div>
 
-  
+            <div class="col-12 col-lg-6">
+                <img src="./img/fitness-3.jpeg" class="d-block w-100" alt="mujer y hombre se encuentran en el suelo estirando">
+            </div>
+
         </div>
 
 
         <div class="row ">
 
-            <div class="col bg-warning">
-              One of three columns
+            <div class="col bg-light p-5 m-2 ">
+              <h2>Programa de Gimnasia laboral</h2>
+              <!-- <p>Puede ser entendida como un conjunto de ejercicios físicos que involucran flexibilidad, tonicidad y la consciencia corporal, los que son desempeñados por los trabajadores de modo preventivo y terapéutico sin producir desgaste físico, ya que son de muy corta duración (alrededor de 12 o 15 min.).
+              </p>      -->
+              <p>Estos programas surgieron con los objetivos de promover el autocuidado y la salud laboral, tanto a nivel individual como organizacional, prevenir patologías, lesiones y/o dolencias derivadas del quehacer profesional y con el fin de capacitar al trabajador en la adopción de hábitos y estilos de vida saludables, tanto en el trabajo como en los tiempos de ocio, los que ha dado como resultado el que hoy en día la gimnasia laboral sea considerada una estrategia para valorizar a los empleados más allá del ámbito laboral.
+              </p>
             </div>
 
             <div class="col-12 col-lg-6 ">
-              <img src="./img/wepik--2022519-223056.jpeg" class="d-block w-100" alt="...">
+              <img src="./img/fitness.jpeg" class="d-block w-100" alt="mujer estitando con cauchos de gimnasio">
             </div>
   
-          </div>
-
         </div>
+
         
     </div>
 
 
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        <!-- Grid container -->
-        <div class="container pt-4">
+    <!-- pie de pagina -->
 
-                        <div class="piePaginaTexto">
+    <footer class="text-center text-light" style="background-color: #33353f;">
 
-                <h5 id="Listas-deficion"> Siguenos en nuestras redes sociales:</h5>
+        <div class="container pt-2 pb-1">
+
+            <div class="piePaginaTexto">
+
+              <h5 id="Listas-deficion"> Siguenos en nuestras redes sociales:</h5>
 
             </div>
     
@@ -198,7 +212,7 @@
 
         </div>
 
-      </footer>
+    </footer>
 
 
 
