@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-image: #122a76;
+    background-image: #194bef;
 }  
 
 /* color de fondo toda la pagina */
@@ -76,25 +76,31 @@ body {
 .foto-1
 {
     filter: opacity(60%);
-    transition: all 1s;
 }
 
 .foto-1:hover {
     filter: none;
-    width: 620px;
-    height: auto;
-    opacity: 1;
 }
 
+@media (max-width: 1290px) { /* min = desde... */
+    
+    .foto-1
+    {
+        transition: all 1s;
+    }
+    
+    .foto-1:hover {
+        width: 620px;
+        height: auto;
+        opacity: 1;
+    }
 
-.foto-2
+    .foto-2
 {
-    filter: opacity(60%);
     transition: all 1s;
 }
 
 .foto-2:hover {
-    filter: none;
     width: 620px;
     height: auto;
     opacity: 1;
@@ -103,16 +109,40 @@ body {
 
 .foto-3
 {
-    filter: opacity(60%);
     transition: all 1s;
 }
 
 .foto-3:hover {
-    filter: none;
     width: 620px;
     height: auto;
     opacity: 1;
     
+}
+
+
+}
+
+
+.foto-2
+{
+    filter: opacity(60%);
+
+}
+
+.foto-2:hover {
+    filter: none;
+    
+}
+
+.foto-3
+{
+    filter: opacity(60%);
+
+}
+
+.foto-3:hover {
+    filter: none;
+  
 }
 
 
@@ -155,4 +185,11 @@ body {
     justify-content: center;
     font-size: 10px;
     margin-top: 10px;
+}
+
+
+/* mapa pagina contactos */
+.container-fluid .map{
+    margin-top: 100px;
+
 }
