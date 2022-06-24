@@ -6,32 +6,52 @@
     background-image: #122a76;
 }  
 
+/* color de fondo toda la pagina */
+
 body {
     background-color: #f9f4f5;
 }
 
+/* logo principal */
+
 .container img {
-    /* height: 70px; */
-    /* width: auto; */
     max-width: 100px;
     border-radius: 50px;
     border: 1.8px solid #f9f4f5;
-
+    transition: 1s;
 
 }
+/* 
+.container img:hover {
+    filter: none;
+    width: 110px;
+    height: auto;
+    opacity: 1;
+} */
+
+
+
+/* Color barra de navegacion */
+.fixed-top {
+    background-color: #33353f;
+}
+
+
+/* tamaño de pantalla celular */
 
 @media (max-width: 450px) { /* min = desde... */
+    
     .navbar-brand img{
-        width: 25px;
+        width: 50px;
         height: auto;
-}
+    }
     .navbar-brand .marca {
         /* background: #000000; */
-        font-size: 13px;
+        font-size: 15px;
     }
     .navbar .navbar-expand-lg .fixed-top {
         background: #122a76;
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .navbar-toggler-icon{
@@ -44,16 +64,59 @@ body {
 }
 
 
+/* carrosel */
 
 .carousel-inner img{
     margin-top: 95px;
 }
 
 
+/* Imagenes portafolio */
+
+.foto-1
+{
+    filter: opacity(60%);
+    transition: all 1s;
+}
+
+.foto-1:hover {
+    filter: none;
+    width: 620px;
+    height: auto;
+    opacity: 1;
+}
+
+
+.foto-2
+{
+    filter: opacity(60%);
+    transition: all 1s;
+}
+
+.foto-2:hover {
+    filter: none;
+    width: 620px;
+    height: auto;
+    opacity: 1;
+    
+}
+
+.foto-3
+{
+    filter: opacity(60%);
+    transition: all 1s;
+}
+
+.foto-3:hover {
+    filter: none;
+    width: 620px;
+    height: auto;
+    opacity: 1;
+    
+}
+
 
 /* pie de pagina */
-
-
 .piePaginaTexto h5{
     display: flex;
     justify-content: center;
