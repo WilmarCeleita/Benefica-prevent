@@ -21,6 +21,16 @@ body {
     transition: 1s;
 
 }
+
+/* alinear textos */
+.justifyText{
+    /* background-color: #122a76; */
+    text-align: justify;
+
+
+}
+
+
 /* 
 .container img:hover {
     filter: none;
@@ -33,7 +43,7 @@ body {
 
 /* Color barra de navegacion */
 .fixed-top {
-    background-color: #33353f;
+    background-color: #141b3b;
 }
 
 
@@ -76,52 +86,12 @@ body {
 .foto-1
 {
     filter: opacity(60%);
+
 }
 
 .foto-1:hover {
     filter: none;
 }
-
-@media (max-width: 1290px) { /* min = desde... */
-    
-    .foto-1
-    {
-        transition: all 1s;
-    }
-    
-    .foto-1:hover {
-        width: 620px;
-        height: auto;
-        opacity: 1;
-    }
-
-    .foto-2
-{
-    transition: all 1s;
-}
-
-.foto-2:hover {
-    width: 620px;
-    height: auto;
-    opacity: 1;
-    
-}
-
-.foto-3
-{
-    transition: all 1s;
-}
-
-.foto-3:hover {
-    width: 620px;
-    height: auto;
-    opacity: 1;
-    
-}
-
-
-}
-
 
 .foto-2
 {
@@ -143,6 +113,47 @@ body {
 .foto-3:hover {
     filter: none;
   
+}
+
+/* donde empiensan las transiciones */
+
+@media (min-width: 1250px) and (max-width: 1400px) {
+    
+    .foto-1
+    {
+        transition: all 1s;
+    }
+    
+    .foto-1:hover {
+        width: 600px;
+        height: auto;
+        opacity: 1;
+    }
+
+    .foto-2
+{
+    transition: all 1s;
+}
+
+.foto-2:hover {
+    width: 600px;
+    height: auto;
+    opacity: 1;
+    
+}
+
+.foto-3
+{
+    transition: all 1s;
+}
+
+.foto-3:hover {
+    width: 600px;
+    height: auto;
+    opacity: 1;
+    
+}
+
 }
 
 
