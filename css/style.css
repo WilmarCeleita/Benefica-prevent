@@ -14,26 +14,27 @@ body {
 
 /* logo principal */
 
-.container img {
+.logoempresa {
     max-width: 100px;
     border-radius: 50px;
     border: 1.8px solid #f9f4f5;
     transition: 1s;
 
 }
-/* 
-.container img:hover {
-    filter: none;
-    width: 110px;
-    height: auto;
-    opacity: 1;
-} */
+
+/* alinear textos */
+.justifyText{
+    /* background-color: #122a76; */
+    text-align: justify;
+
+
+}
 
 
 
 /* Color barra de navegacion */
 .fixed-top {
-    background-color: #33353f;
+    background-image: radial-gradient(circle at 88.34% 50%, #005784 0, #005686 10%, #005488 20%, #005289 30%, #0a5089 40%, #264e88 50%, #364c86 60%, #444984 70%, #4f4681 80%, #58437d 90%, #614179 100%);
 }
 
 
@@ -76,52 +77,12 @@ body {
 .foto-1
 {
     filter: opacity(60%);
+
 }
 
 .foto-1:hover {
     filter: none;
 }
-
-@media (max-width: 1290px) { /* min = desde... */
-    
-    .foto-1
-    {
-        transition: all 1s;
-    }
-    
-    .foto-1:hover {
-        width: 620px;
-        height: auto;
-        opacity: 1;
-    }
-
-    .foto-2
-{
-    transition: all 1s;
-}
-
-.foto-2:hover {
-    width: 620px;
-    height: auto;
-    opacity: 1;
-    
-}
-
-.foto-3
-{
-    transition: all 1s;
-}
-
-.foto-3:hover {
-    width: 620px;
-    height: auto;
-    opacity: 1;
-    
-}
-
-
-}
-
 
 .foto-2
 {
@@ -145,8 +106,55 @@ body {
   
 }
 
+/* donde empiensan las transiciones */
+
+@media (min-width: 1250px) and (max-width: 1400px) {
+    
+    .foto-1
+    {
+        transition: all 1s;
+    }
+    
+    .foto-1:hover {
+        width: 600px;
+        height: auto;
+        opacity: 1;
+    }
+
+    .foto-2
+{
+    transition: all 1s;
+}
+
+.foto-2:hover {
+    width: 600px;
+    height: auto;
+    opacity: 1;
+    
+}
+
+.foto-3
+{
+    transition: all 1s;
+}
+
+.foto-3:hover {
+    width: 600px;
+    height: auto;
+    opacity: 1;
+    
+}
+
+}
+
 
 /* pie de pagina */
+
+.piePagina{
+    background-color: #264e88;
+}
+
+
 .piePaginaTexto h5{
     display: flex;
     justify-content: center;
@@ -191,5 +199,29 @@ body {
 /* mapa pagina contactos */
 .container-fluid .map{
     margin-top: 100px;
+
+}
+
+/* pagina galeria */
+
+.galeriaBenefica img{
+    width: 100%;
+    filter: grayscale(1);
+}
+.galeriaBenefica img:hover {
+    filter: none;
+}
+
+/* .galeriaBenefica{
+    background-color: #147612;
+} */
+
+
+/* portafolio de servicios */
+
+.serviciosBenefica{
+    padding-top: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
 
 }
