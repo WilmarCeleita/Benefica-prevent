@@ -29,12 +29,28 @@ body {
 
 
 }
+<<<<<<< HEAD
+=======
+
+
+/* 
+.container img:hover {
+    filter: none;
+    width: 110px;
+    height: auto;
+    opacity: 1;
+} */
+>>>>>>> fdf22f74753bfcc9f46c1f30898a59b3c6b228da
 
 
 
 /* Color barra de navegacion */
 .fixed-top {
+<<<<<<< HEAD
     background-image: radial-gradient(circle at 88.34% 50%, #005784 0, #005686 10%, #005488 20%, #005289 30%, #0a5089 40%, #264e88 50%, #364c86 60%, #444984 70%, #4f4681 80%, #58437d 90%, #614179 100%);
+=======
+    background-color: #141b3b;
+>>>>>>> fdf22f74753bfcc9f46c1f30898a59b3c6b228da
 }
 
 
